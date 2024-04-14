@@ -1,31 +1,22 @@
 
 
-#### detener los contenedores con el comando
+#### suspender la operación de los contenedores mediante el uso del comando
 `$ docker-compose down`
-#### Borrar los contenedores con el comando
+#### elimina los contenedores 
 `docker rm -f $(docker ps -a -q)`
-#### Borrar  los volumenes con el comando
+#### elimina los volumenes 
 `docker volume rm $(docker volume ls -q)`
-#### Reiniciar los contenedores con el comando:
+#### Reiniciar los contenedores 
 `docker-compose up -d`
 
 # Integrantes
 
 Integrantes del equipo:
 -ALEJANDRA MICHELLE MEJIA RIVAS MR22035
+
 ----IVAN EDUARDO LOPEZ TOBAR LT22009
+
 -----ERICK GIOVANNI MONROY LOPEZ ML22048
 
-parcial 1
-
-$ docker-compose down
-
-Borrar todos los contenedores con el comando:
-docker rm -f $(docker ps -a -q)
-
-Borrar todos los volumenes con el comando:
-docker volume rm $(docker volume ls -q)
-
-Reiniciar los contenedores con el comando:
-docker-compose up -d
+parcial numero 1
 
